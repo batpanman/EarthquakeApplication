@@ -1,0 +1,16 @@
+<!--
+     Name                 Panagiotis Chondrodimos
+     Student ID           S1517035
+     Programme of Study   BSc Computing
+    -->
+
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

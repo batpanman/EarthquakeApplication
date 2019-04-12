@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+   <!--
+     Name                 Panagiotis Chondrodimos
+     Student ID           S1517035
+     Programme of Study   BSc Computing
+    -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_light_disabled">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/fragment"
+            android:layout_width="match_parent"
+            android:layout_height="293pt"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp">
+
+            <android.support.design.widget.BottomNavigationView
+                android:id="@+id/navBottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="?android:attr/windowBackground"
+                app:menu="@menu/nav_bottom" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
